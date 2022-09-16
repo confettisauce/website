@@ -1,7 +1,8 @@
-
-/*** import Google fonts ***/
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Pacifico&display=swap');
 
+* {
+  -webkit-font-smoothing: antialiased;
+}
 
 .agenda-header {
   text-align: center;
@@ -28,9 +29,6 @@
   padding-bottom: 5rem;
 }
 
-.agenda-entries {
-}
-
 .agenda-entry {
   text-align: center;
   padding-top: 3.2rem;
@@ -44,19 +42,35 @@
   font-family: 'DM Sans', sans-serif;
   margin-top: 0;
   margin-bottom: 0;
+  color: #333;
 }
 
 .agenda-entry p.small {
   padding-top: 1rem;
   font-size: 0.85rem;
+  color: #777;
 }
 
 .agenda-entry .uk-alert-warning {
   margin: 0.5rem 0 0.5rem 0;
   padding: 0.5rem;
-  font-weight: 700;
+  font-weight: 500;
   background: #FFF7E9;
   border: 1px solid #F7DFBA;
   color: #8e6c30;
   font-size: 0.8rem;
+}
+
+.uk-link, a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(0,126,92);
+}
+
+.uk-link, a:hover {
+  color: rgb(0,57,42);
+}
+
+p.padded {
+  padding-top: 0.5rem;
 }
