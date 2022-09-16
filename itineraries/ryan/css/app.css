@@ -1,0 +1,62 @@
+
+/*** import Google fonts ***/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Pacifico&display=swap');
+
+
+.agenda-header {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2rem;
+}
+
+.agenda-header h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+}
+
+.agenda-header h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.agenda-container {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.agenda-entries {
+}
+
+.agenda-entry {
+  text-align: center;
+  padding-top: 3.2rem;
+}
+
+.agenda-entry h3 {
+  font-family: 'Pacifico', cursive;
+}
+
+.agenda-entry p {
+  font-family: 'DM Sans', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.agenda-entry p.small {
+  padding-top: 1rem;
+  font-size: 0.85rem;
+}
+
+.agenda-entry .uk-alert-warning {
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 0.5rem;
+  font-weight: 700;
+  background: #FFF7E9;
+  border: 1px solid #F7DFBA;
+  color: #8e6c30;
+  font-size: 0.8rem;
+}
