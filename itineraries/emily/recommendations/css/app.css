@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: rgba(10,186,181,0.3);
+  color: rgb(2, 34, 33);
+}
+
+.agenda-header {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2rem;
+  color: rgb(95, 7, 177);
+}
+
+.agenda-header h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  color: rgb(95, 7, 177);
+}
+
+.agenda-header h2, p.welcome-message {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+p.welcome-message {
+  padding-bottom: 1rem;
+}
+
+.agenda-container {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.agenda-entry {
+  text-align: center;
+  padding-top: 1.8em;
+}
+
+.agenda-entry h3 {
+  font-family: 'Pacifico', cursive;
+  color: rgb(95, 7, 177);
+}
+
+.agenda-entry h3 a {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.3rem;
+  color: rgb(143, 0, 119);
+}
+
+.agenda-entry p {
+  font-family: 'Work Sans', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #333;
+}
+
+.agenda-entry p.small {
+  padding-top: 1rem;
+  font-size: 0.85rem;
+  color: rgb(2, 34, 33);
+}
+
+.agenda-entry .uk-alert-warning {
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 0.5rem;
+  font-weight: 700;
+  background: rgba(10,186,181,0.5);
+  border: 1px solid rgba(10,186,181,1);
+  font-size: 0.8rem;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.uk-link, a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(143, 0, 119);
+  text-decoration: none;
+}
+
+.uk-link, a:hover {
+  color: rgb(0,57,42);
+}
+
+.note {
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding-top: 0.2rem;
+}
+
+p.padded {
+  padding-top: 0.5rem;
+}
+
+.agenda-first {
+  padding-top: 1.5rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2.8rem;
+}
+
+.agenda-second {
+  padding-top: 1.5rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2.8rem;
+}
+
+.business-name {
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding-bottom: 0.4rem;
+}
+
+.agenda-entry h3 {
+  font-family: 'Pacifico', cursive;
+  text-decoration: underline;
+}
+
+p.subsection-heading {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  padding-top: 1.2rem;
+  padding-bottom: 0.3rem;
+}
+
+hr.custom {
+  width: 2rem;
+  height: 0.1rem;
+  background: #000;
+  border: none;
+  margin-bottom: 1.8rem;
+}
+
+.uk-container {
+  padding-top: 0;
+}
+
+.subsection-header {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+}
