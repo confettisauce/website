@@ -1,0 +1,227 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Pacifico&display=swap');
+
+body {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: rgba(10, 186, 180, 0.18);
+}
+
+p {
+  color: rgb(5, 66, 86);
+}
+
+.uk-container {
+  padding-bottom: 10rem;
+}
+
+/* page header */
+.page-header {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.page-header h1 {
+  font-family: "Pacifico", cursive;
+  padding-bottom: 0;
+  background-color: #7512a7;
+  background-image: linear-gradient(90deg, #0ABAB5, #7512a7);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  font-size: 2.1rem;
+  width: fit-content;
+  height: fit-content;
+  padding-right: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+.page-header h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0.5rem; 
+  color: rgb(5, 66, 86);
+}
+
+.lodging {
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+}
+
+.lodging h3, .event h3 {
+  font-family: "Pacifico", cursive;
+  font-size: 1.6rem;
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  color: rgb(5, 66, 86);
+}
+
+.lodging a, .event a {
+  color: #7600b1;
+  font-weight: 500;
+}
+.lodging a:hover {
+  color: rgb(5, 66, 86);
+}
+
+.welcome-goodbye {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  background-color: #7512a7;
+  background-image: linear-gradient(90deg, #0ABAB5, #7512a7);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  width: fit-content;
+  height: fit-content;
+}
+
+hr.custom {
+  width: 5rem;
+  height: 2px;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  background-color: #7512a7;
+  background-image: linear-gradient(90deg, #0ABAB5, #7512a7);
+  border-radius: 1px;
+}
+
+.event h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
+
+.event h3 {
+  padding-bottom: 1.8rem;
+  margin-bottom: 0;
+}
+
+.event p {
+  margin: 0;
+  padding-bottom: 1.5rem;
+}
+
+.event h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  padding: 0.2rem 0 0.5rem 0;
+  margin: 0;
+}
+
+p.address {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+p.note {
+  padding-top: 0.5rem;
+  font-size: 0.8rem;
+  color: rgba(5, 66, 86, 0.8);
+}
+
+p.time {
+  font-weight: 700;
+}
+
+p.time strong {
+  color: rgb(224, 7, 108);
+  border-bottom: 2px solid rgb(224, 7, 108);
+}
+
+.callout {
+  color: rgb(6, 116, 112);
+  font-size: 0.8rem;
+  background: rgba(10,186,181,0.25);
+  border: 1px solid rgba(10,186,181,0.4);
+  border-radius: 4px;
+}
+
+.uk-modal-title, .uk-modal-dialog h3 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.uk-button-small {
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  text-transform: none;
+}
+
+.uk-button-danger {
+  background-color: rgb(224, 7, 108);
+}
+
+.uk-button-danger:hover {
+  background-color: rgb(122, 4, 59);
+}
+
+.uk-modal-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 1.5rem;
+  margin-bottom: 0;
+}
+
+.uk-modal-body h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0 0 0.3rem 0;
+  margin: 0 0 0 0;
+}
+
+.uk-modal-body ul {
+  margin: 0 0 0 1rem;
+  padding: 0 0 1.2rem 0.5rem;
+}
+
+.uk-modal-body li {
+  padding: 0.1rem 0rem;
+}
+
+p.note-alt {
+  padding-top: 0rem;
+  padding-bottom: 1.8rem;
+  margin-top: -0.8rem;
+  font-size: 1rem;
+  font-style: italic;
+  color: rgba(5, 66, 86, 0.8);
+}
+
+p.note-alt2 {
+  padding-top: 0rem;
+  padding-bottom: 1.8rem;
+  margin-top: -1.8rem;
+  font-size: 1rem;
+  font-style: italic;
+  color: rgba(5, 66, 86, 0.8);
+}
+
+.callout {
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  margin-top: 0.5rem;
+}
+
+hr, .uk-hr {
+  border-top: 1px dashed rgba(10, 186, 180, 1);
+}
