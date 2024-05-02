@@ -133,9 +133,9 @@ hr {
 }
 
 .page-header {
-  width: 100%;
   text-align: center;
-  padding-bottom: 32px;
+  margin: 24px 24px 48px 24px;
+  max-width: 100%;
 }
 
 .page-header h1{
