@@ -84,7 +84,7 @@ body {
 }
 
 .date-section h3 {
-  padding-bottom: 12px;
+  padding: 16px 0 0 0;
 }
 
 .date-welcome-message {
@@ -100,6 +100,12 @@ body {
 
 .date-highlight {
   padding-bottom: 12px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+p {
+  line-height: 26px;
 }
 
 .date-highlight a {
@@ -139,6 +145,9 @@ hr {
 .page-header h1{
   font-family: var(--font-caveat);
   font-size: 56px;
+  padding: 32px 0 0 0;
+  margin: 0;
+  line-height: 48px;
 }
 
 .page-header h2 {
@@ -146,4 +155,14 @@ hr {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
+  padding-top: 16px;
+}
+
+.note {
+  color: var(--dark-neutral);
+  line-height: 20px;
+  font-size: 14px;
+  border-left: 3px solid var(--dark-neutral);
+  padding-left: 8px;
+  font-style: italic;
 }
