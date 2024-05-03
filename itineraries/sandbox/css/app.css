@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+:root {
+  --open-sans: "Inter", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif; 
+  --text-dark: rgb(17, 24, 39);
+  --text-medium: rgb(75, 85, 99);
+  --text-blue: rgb(79, 70, 229);
+  --border-light: rgb(229, 231, 235);
+  --nanum: "Nanum Pen Script";
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, p {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: var(--text-medium);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+body {
+  font-family: var(--open-sans);
+  background: rgb(243, 244, 246);
+  padding: 0;
+  margin: 8px;
+}
+
+.site-header {
+  width: 100%;
+  padding: 1rem;
+    h1 {
+      font-size: 2rem;
+      color: var(--text-dark);
+    }
+    h2 {
+      font-size: 1rem;
+      color: var(--text-blue);
+    }
+}
+
+.itinerary {
+}
+
+.itinerary-date {
+  padding: 24px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+              rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+              rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+              rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
+}
+
+.itinerary-date p {
+  padding-bottom: 12px;
+}
+
+.date-chip {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 3px;
+  background: var(--text-dark);
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+} 
+
+.date-welcome-message {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: var(--nanum);
+  line-height: 32px;
+  color: var(--text-blue);
+  padding-bottom: 16px;
+}
+
+.date-subhead {
+  color: var(--text-medium);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.note {
+  padding: 8px 16px;
+  border-radius: 4px;
+  background: rgb(239, 246, 255);
+  color: rgb(29, 78, 216);
+  font-size: 12px;
+}
+
+.date-section {
+  padding: 24px 24px 0 24px;
+  margin: 24px -24px 0 -24px;
+  border-top: 1px solid var(--border-light);
+}
+
+.date-highlight a {
+  color: var(--text-blue);
+  font-weight: 700;
+  text-decoration: none;
+}
+.date-highlight p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.date-highlight hr {
+  width: 100%;
+  margin-left: -24px;
+}
